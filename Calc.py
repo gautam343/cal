@@ -3,6 +3,7 @@ import Addition
 import Subtraction
 import Multiplication
 import Division
+import Power
 
 # This is to present a menu to the user
 print("Select operation.")
@@ -35,6 +36,9 @@ while True:
 
         elif choice == '4':
             print(num1, "/", num2, "=", Division.divide(num1, num2))
+        
+        elif choice=='5':
+            print(num1,"/",num2,"=",Power.power(num1,num2))
         
         # check if user wants another calculation
         # break the while loop if answer is no
