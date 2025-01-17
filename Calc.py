@@ -5,6 +5,7 @@ import Multiplication
 import Division
 import Power
 import Root
+import log
 
 # This is to present a menu to the user
 print("Select operation.")
